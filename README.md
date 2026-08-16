@@ -1,5 +1,8 @@
 # `google/mcp`
 
+> Public fork of [google/mcp](https://github.com/google/mcp). Catalog + `examples/launchmybakery` only. Not an MCP server. Apache-2.0 LICENSE is in the tree.
+
+
 This repository contains a list of Google's official Model Context Protocol (MCP) servers, guidance on how to deploy MCP servers to Google Cloud, and examples to get started.
 
 ## ⚡ Google MCP Servers
@@ -63,26 +66,4 @@ This project is licensed under the Apache 2.0 License \- see the [LICENSE](https
 This is not an officially supported Google product. This project is intended for demonstration purposes only.
 
 This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).  
-
----
-
-## Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/fuzzywigg/mcp.git
-cd mcp
-
-# See Installation section for setup steps
-```
-
-## Installation
-
-<!-- TODO: Add installation steps -->
-> ⚠️ Installation steps not yet documented.
-
-## License
-
-<!-- TODO: Confirm and add license -->
-> ⚠️ License not yet specified.
 
