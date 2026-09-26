@@ -16,8 +16,12 @@ root_agent = LlmAgent(
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
                 
-                1.  **BigQuery toolset:** Access demographic (inc. foot traffic index), product pricing, and historical sales data in the  mcp_bakery dataset. Do not use any other dataset.
-                Run all query jobs from project id: {PROJECT_ID}. 
+                1.  **BigQuery toolset:** Use only the mcp_bakery dataset (four tables: foot_traffic, demographics, bakery_prices, sales_history_weekly). Do not use any other dataset.
+                    - foot_traffic: morning/afternoon/evening scores by zip (target discovery)
+                    - demographics: census-style population and community profiling
+                    - bakery_prices: competitor product pricing
+                    - sales_history_weekly: historical sales for forecasting
+                    Run all query jobs from project id: {PROJECT_ID}. 
 
                 2.  **Maps Toolset:** Use this for real-world location analysis, finding competition/places and calculating necessary travel routes.
                     Include a hyperlink to an interactive map in your response where appropriate.
