@@ -14,7 +14,7 @@ This repository contains a list of Google's official Model Context Protocol (MCP
 
 ### **Remote MCP servers** 
 
-These [remote MCP servers are managed by Google](https://docs.cloud.google.com/mcp/overview), and are available [via endpoint](https://docs.cloud.google.com/mcp/enable-disable-mcp-servers). This list will be kept up-to-date as more remote servers become available. 
+These [remote MCP servers are managed by Google](https://docs.cloud.google.com/mcp/overview), and are available [via endpoint](https://docs.cloud.google.com/mcp/enable-disable-mcp-servers). This reference fork does not keep this catalog current; see [upstream google/mcp](https://github.com/google/mcp) for the live list. 
 
 * [**Google Maps (Grounding Lite)**](https://developers.google.com/maps/ai/grounding-lite)  
 * [**BigQuery**](https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp)  
