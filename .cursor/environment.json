@@ -1,0 +1,4 @@
+{
+  "name": "mcp",
+  "install": "python3 -m pip install -r examples/launchmybakery/requirements.txt google-adk"
+}
