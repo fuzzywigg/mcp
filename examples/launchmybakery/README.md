@@ -137,7 +137,7 @@ Open the link provided by `adk web` in your browser. You can now chat with the a
 
 ### 7. Cleanup
 
-To avoid incurring ongoing costs for BigQuery storage or other Google Cloud resources, you can run the cleanup script. This script will delete the BigQuery dataset, the Cloud Storage bucket, and the API keys created during setup. Navigate back to the root directory of the repository and run the following command:
+To avoid incurring ongoing costs for BigQuery storage or other Google Cloud resources, you can run the cleanup script. This script will delete the BigQuery dataset, the Cloud Storage bucket, and the API keys created during setup. Navigate back to this example's root directory (`examples/launchmybakery`, one level above `adk_agent/`) and run the following command:
 
 ```bash
 chmod +x cleanup/cleanup_env.sh
