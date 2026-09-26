@@ -60,7 +60,7 @@ You can run these open-source MCP servers locally, or deploy them to Google Clou
 
 ## 🤝 Contributing
 
-We welcome contributions to this repository, including bug reports, feature requests, documentation improvements, and code contributions. Please see our [Contributing Guidelines](https://github.com/google/mcp/blob/main/CONTRIBUTING.md) to get started.
+This is a personal reference fork (see banner). Catalog and example contributions belong upstream at [google/mcp](https://github.com/google/mcp) and follow [upstream CONTRIBUTING.md](https://github.com/google/mcp/blob/main/CONTRIBUTING.md) (Google CLA). The local `CONTRIBUTING.md` is retained for provenance; this fork has no CLA bot and is not a contribution target.
 
 ## 📃 License
 
