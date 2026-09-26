@@ -12,11 +12,12 @@ This scenario demonstrates an AI Agent's ability to orchestrate enterprise data 
 
 > **"How would you help a friend launch a new high-end sourdough bakery in Los Angeles?"**
 
-The agent autonomously queries BigQuery to find macro trends and uses Google Maps to validate micro-location details. The demo relies on three key datasets:
+The agent autonomously queries BigQuery to find macro trends and uses Google Maps to validate micro-location details. The demo relies on four key datasets:
 
-1.  **Demographics:** To identify neighborhoods with high foot traffic using census data (Macro Discovery).
-2.  **Market Data:** To analyze competitor pricing and suggest a premium price point (Pricing Strategy).
-3.  **Sales History:** To forecast potential revenue based on comparable store trends (Forecasting).
+1.  **Foot Traffic:** To identify neighborhoods with high morning activity (Target Discovery).
+2.  **Demographics:** To profile community depth with census-style population data (Community Profiling).
+3.  **Market Data:** To analyze competitor pricing and suggest a premium price point (Pricing Strategy).
+4.  **Sales History:** To forecast potential revenue based on comparable store trends (Forecasting).
 
 ### Architecture Diagram
 
