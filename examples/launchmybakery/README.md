@@ -23,7 +23,7 @@ The agent autonomously queries BigQuery to find macro trends and uses Google Map
 
 ![Architecture Diagram](architecture_diagram.png)
 
-The diagram above illustrates the flow of information in this demo. The Agent, powered by Gemini 3 Pro Preview, orchestrates requests between the user and Google Cloud services. It uses a remote (Google hosted) MCP server to securely access BigQuery for demographic and sales data, and Google Maps APIs for real-world location analysis and validation.
+The diagram above illustrates the flow of information in this demo. The Agent, powered by Gemini 3 Pro Preview, orchestrates requests between the user and Google Cloud services. It uses remote (Google hosted) MCP servers for BigQuery and Google Maps: BigQuery for the four tip tables (`foot_traffic`, `demographics`, `bakery_prices`, `sales_history_weekly`), and Maps MCP for real-world location analysis and validation.
 
 ## Repository Structure
 
