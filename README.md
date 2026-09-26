@@ -42,7 +42,7 @@ You can run these open-source MCP servers locally, or deploy them to Google Clou
 
 ## 💻 Examples
 
-* [**Launch My Bakery**](http://github.com/google/mcp/tree/main/examples/launchmybakery) (`/examples/launchmybakery`)**:** A sample agent built with Agent Development Kit (ADK) that uses remote MCP servers for Google Maps and BigQuery. 
+* [**Launch My Bakery**](./examples/launchmybakery) (`/examples/launchmybakery`)**:** A sample agent built with Agent Development Kit (ADK) that uses remote MCP servers for Google Maps and BigQuery. 
 
 
 ## 📙 Resources
