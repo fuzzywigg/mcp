@@ -77,7 +77,7 @@ Follow the prompts to complete the authentication process.
 ### 3. Configure Environment
 
 Run the environment setup script. This script will:
-*   Enable necessary Google Cloud APIs (Maps, BigQuery, remote MCP).
+*   Enable necessary Google Cloud APIs (aiplatform, mapstools, apikeys) plus MCP enable for mapstools/bigquery.
 *   Create a restricted Google Maps Platform API Key.
 *   Create a `.env` file with required environment variables.
 
