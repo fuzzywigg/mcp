@@ -5,7 +5,7 @@
 > **Relation to Geryon:** reference only. No Geryon code or config depends on this fork. It was
 > evaluated on 2026-08-21/22 (openclaw_geryon `nightwork/reports/*-star-google-mcp.md`) as a
 > way to wire GCP Secret Manager into OpenClaw's MCP block. No Secret Manager MCP exists,
-> so the verdict is WATCH. Fleet map: [geryon-ops/ARCHITECTURE.md](https://github.com/fuzzywigg/geryon-ops/blob/main/ARCHITECTURE.md).
+> so the verdict is WATCH.
 
 
 This repository contains a list of Google's official Model Context Protocol (MCP) servers, guidance on how to deploy MCP servers to Google Cloud, and examples to get started.
