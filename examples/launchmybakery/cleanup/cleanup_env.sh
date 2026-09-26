@@ -95,7 +95,7 @@ fi
 # ------------------------------------------
 echo "[5/5] Checking Enabled APIs..."
 echo "----------------------------------------------------------------"
-echo "The setup enabled: aiplatform, mapstools, apikeys, bigquery (plus MCP enable for mapstools/bigquery)."
+echo "The setup enabled: aiplatform, mapstools, apikeys (plus MCP enable for mapstools/bigquery)."
 echo "NOTE: Only disable these if no other apps in this project use them."
 echo ""
 read -p "Do you want to disable these APIs? (y/n) " -n 1 -r
@@ -105,7 +105,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "Disabling APIs (this may take a moment)..."
     gcloud services disable aiplatform.googleapis.com --project=$PROJECT_ID --force
     gcloud services disable mapstools.googleapis.com --project=$PROJECT_ID --force
-    gcloud services disable bigquery.googleapis.com --project=$PROJECT_ID --force
     gcloud services disable apikeys.googleapis.com --project=$PROJECT_ID --force
     echo "APIs disabled."
 else
